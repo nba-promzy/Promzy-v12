@@ -21,8 +21,8 @@ waClient.on('disconnected', reason => console.log('WhatsApp disconnected:', reas
 waClient.initialize();
 
 // -------- TELEGRAM BOT --------
-const TELEGRAM_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'; // Replace with your token
-const TELEGRAM_ADMIN = 'YOUR_TELEGRAM_ID';       // Replace with your Telegram ID
+const TELEGRAM_TOKEN = '8165700812:AAE6Va9DgYlxrs60g8L4-cue-nis4RPX9kE'; // Replace with your token
+const TELEGRAM_ADMIN = '8446514011';       // Replace with your Telegram ID
 const tgBot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 
 // -------- MULTI-USER SUPPORT --------
